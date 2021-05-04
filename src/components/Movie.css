@@ -1,10 +1,6 @@
 .movies .movie {
-  width: 45%;
-  background-color : white;
+  background-color: white;
   margin-bottom: 70px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   font-weight: 300;
   padding: 20px;
   border-radius: 5px;
@@ -13,9 +9,9 @@
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 
-.movie .movie a {
+.movies .movie a {
   display: grid;
-  grid-template-columns: minmax(100px, 1fr) 2fr;
+  grid-template-columns: minmax(150px, 1fr) 2fr;
   grid-gap: 20px;
   text-decoration: none;
   color: inherit;
@@ -24,7 +20,7 @@
 .movie img {
   position: relative;
   top: -50px;
-  max-width: 120px;
+  max-width: 150px;
   width: 100%;
   margin-right: 30px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
@@ -48,6 +44,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   margin: 5px 0px;
 }
 
