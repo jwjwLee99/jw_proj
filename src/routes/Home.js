@@ -159,12 +159,12 @@ class Home extends React.Component {
 //     );
 //   }
 // }
-//react는 자동적으로 너의 class component의 render method를 실행해! 자동으로!
-//class component는 우리가 원하는 state라는 녀석을 가지고 있음 \
+//react는 자동적으로 너의 class component의 render method를 자동으로 실행
+//class component는 우리가 원하는 state라는 녀석을 가지고 있음
 //state는 object이고 component의 data를 넣을 공간이 있고, 이 데이터는 변함
 //this.add() -> 즉시, this.add -> 클릭 할 때만
-//setState를 사용하지 않으면 새 state와 함께 render function이 호출되지 않을 거야
-//매 순간 너가 setState를 호출할 때 마다 react는 새로운 state와 함께 render function을 호출할 꺼야
+//setState를 사용하지 않으면 새 state와 함께 render function이 호출되지 않음
+//매 순간 너가 setState를 호출할 때 마다 react는 새로운 state와 함께 render function을 호출함
 
 // function App() {
 //   return (
@@ -183,13 +183,13 @@ class Home extends React.Component {
 //     </div>
 //   );
 // }
-//react는 당신이 거기에 쓰는 모든 요소를 생성함!
+//react는 당신이 거기에 쓰는 모든 요소를 생성함
 //자바스크립트와 함께 그것들을 만들고
 //그것들을 html로 만듬
-//너의 모든 react application을 div 사이에 넣어! ok?
+//모든 react application을 div 사이에 넣음
 //react는 소스코드에 처음부터 html를 넣지않고, html에서 html을 추가하거나 제거하는 법을 알고 잇음
 //그래서 application이 이것을 로드할 때, 빈 html을 로드하게 되고
-//그런 다음에 내가 component에 작성해뒀던 것을 react가 html을 밀어넣게 됨!
+//그런 다음에 내가 component에 작성해뒀던 것을 react가 html을 밀어넣게 됨
 //따라서 검사 해보면 div와 h1이 있지만 소스코드(index.html)에는 존재하지 않음
 //이 것이 react가 빠른 이유, virtual이고 존재하지 않기 때문 (virtual DOM(Document Object Model))
 
@@ -200,7 +200,7 @@ class Home extends React.Component {
 //이게 dynamic data 그리고 이런 props는 우리는 돕지않아 우리가 필요한 건 state
 
 //function component는 function이고 뭔가를 return해 그리고 screen에 표시돼, class component는 class야
-//하지만 react component로 부터 확장되고 screen에 표시돼
+//하지만 react component로 부터 확장되고 screen에 표시됨
 
 //map은 array의 각 item에서 function을 실행하는 array를 가지는 javascript function이며
 //그 function의 result를 갖는 array를 나에게 줌
